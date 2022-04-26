@@ -22,7 +22,8 @@
 				<div class="menu__link__block"><a href="#" class="menu__link">Главная</a></div>
 				<div class="menu__link__block"><a href="#models" class="menu__link">Услуги</a></div>
 				<div class="menu__link__block"><a href="#about" class="menu__link">О нас</a></div>
-				<div class="menu__link__block"><a href="pages/admin/login.html" class="menu__link btn__login icon-user">Вход</a></div>
+				<div class="menu__link__block"><a href="pages/admin/login.html"
+						class="menu__link btn__login icon-user">Вход</a></div>
 			</div>
 		</div>
 	</header>
@@ -38,7 +39,9 @@
 									<div class="detailed__contain flex">
 										<div class="detailed__contant flex">
 											<div class="detailed__content__title">Качественное обслуживание</div>
-											<div class="detailed__content__text">В старом мире вы посвящали 30% своего времени созданию первоклассного обслуживания и 70% времени кричали об этом. В новом мире все наоборот</div>
+											<div class="detailed__content__text">В старом мире вы посвящали 30% своего времени
+												созданию первоклассного обслуживания и 70% времени кричали об этом. В новом мире все
+												наоборот</div>
 										</div>
 									</div>
 								</div>
@@ -80,6 +83,24 @@
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
 			</div>
+		</div>
+		<div class="orders">
+			<form action="pages/inc/add.php" method="post">
+				<label for="fio">Аты-жони</label>
+				<input type="text" name="fio" id="">
+				<label for="iin">ЖСК</label>
+				<input type="text" name="iin" id="">
+				<label for="staff">Жумыс орны</label>
+				<input type="text" name="staff" id="">
+				<label for="risk">Риский</label>
+				<input type="text" name="risk" id="">
+				<label for="date-start">Дата</label>
+				<input type="text" name="date-start" id="">
+				<label for="price">Цена</label>
+				<input type="text" name="price" id="">
+				<button type="submit">Записать</button>
+				<!-- `id`, `fio`, `drink`, `staff`, `price`, `date-start`, `date-end`, `danger` -->
+			</form>
 		</div>
 	</div>
 	<script src="js/swiper-bundle.min.js"></script>
