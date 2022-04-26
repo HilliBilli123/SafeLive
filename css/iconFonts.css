@@ -46,19 +46,25 @@
 }
 .icon-bin:before {
   content: "\e9ac";
+  padding-right: 5px;
 }
 .icon-bin2:before {
   content: "\e9ad";
+  padding-right: 5px;
 }
 .icon-facebook2:before {
   content: "\ea201";
+  padding-right: 5px;
 }
 .icon-instagram:before {
   content: "\ea202";
+  padding-right: 5px;
 }
 .icon-whatsapp:before {
   content: "\ea203";
+  padding-right: 5px;
 }
 .icon-telegram:before {
   content: "\ea204";
+  padding-right: 5px;
 }
