@@ -1,0 +1,101 @@
+@import url("../../css/comon.css");
+
+.header__content {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 10px 0px;
+	align-items: center;
+
+}
+
+.header {
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.header__logo a {
+	/* background-color: white; */
+	color: #007cc3;
+	height: 100%;
+	padding: 15px;
+	border-radius: 40px 0 40px 0;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+
+.header__menu {
+	font-size: 18px;
+}
+
+.header__text a {
+	border-radius: 5px;
+}
+
+.header__logout a {
+	background-color: #007cc3;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.button__pading__block {
+	justify-content: flex-start;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.button__pading {
+	padding: 10px;
+	border-left: 2px solid #007cc3;
+	border-top: 2px solid #007cc3;
+	border-right: 2px solid #007cc3;
+	border-radius: 10px 10px 0px 0;
+	cursor: pointer;
+}
+
+.button__active {
+	border-left: 2px solid #007cc3;
+	border-top: 2px solid #007cc3;
+	border-right: 2px solid #007cc3;
+	background-color: #007cc3;
+	color: white;
+}
+
+.page__body {
+	padding: 40px 20px;
+}
+
+.table__content {
+	background-color: #007cc3;
+	/* border-radius: 10px 10px 0 0; */
+}
+
+.table__content {
+	display: none;
+	padding: 5px;
+}
+
+.active {
+	display: block;
+}
+
+.table__contein {
+	background-color: white;
+	justify-content: space-between;
+	font-size: 18px;
+}
+
+.table__contein__block {
+	width: 100%;
+	text-align: center;
+}
+
+.table__contein__block:not(:last-child) {
+	border-right: 3px solid #007cc3;
+}
+
+.table__contein:not(:last-child) {
+	border-bottom: 3px solid #007cc3;
+}

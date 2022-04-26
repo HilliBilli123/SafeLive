@@ -1,5 +1,3 @@
-
-
 ._contein {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -52,11 +50,12 @@ button {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: white;
+	/* color: white; */
 	text-decoration: none;
 }
 
-a {
+a,
+a:-webkit-any-link {
 	text-decoration: none;
 	display: inline-block;
 	/* color: black; */
