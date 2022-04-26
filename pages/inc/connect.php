@@ -1,2 +1,2 @@
 <?php
-$connect = mysqli_connect('localhost', 'root', 'root', 'safe-live');
+$connect = mysqli_connect('localhost', 'root', '', 'safe-live');
