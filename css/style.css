@@ -1,1 +1,160 @@
 @import url("comon.css");
+@import url("header.css");
+@import url("iconFonts.css");
+@import url("swiper-bundle.min.css");
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+.logo__image {
+    color: #007cc3;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Josefin Sans;
+}
+
+.menu__link {
+    color: #000;
+    font-weight: 600;
+}
+
+.btn__login {
+    border-radius: 4px;
+    border: 1px #007cc3 solid;
+    background-color: #007cc3;
+    padding: 5px 15px; 
+    letter-spacing: 1px;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.btn__login:hover {
+    background-color: #fff;
+    color: #007cc3;
+}
+
+
+/* ============ Слайдер ================================================================================= */
+.page__body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.slider__contein {
+	position: relative;
+	height: 100vh;
+}
+
+.slider__content {
+	height: 100vh;
+	position: relative;
+}
+
+.detailed__contain {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	align-items: center;
+
+
+}
+
+/* .menu__link {
+	font-weight: 600;
+	transition: all 1s;
+	position: relative;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+}
+
+
+
+.menu__link::after {
+	content: "";
+	position: absolute;
+	background-color: #fff;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
+}
+
+.menu__link:hover:after {
+	width: 100%;
+} */
+
+
+
+
+
+.detailed__contant {
+	flex-direction: column;
+	/* justify-content: center; */
+    align-items: center;
+	/* align-items: center; */
+	width: 700px;
+	height: 300px;
+    padding: 20px 30px;
+	margin-left: 150px;
+    background-color: #ffffffe3;
+    border-radius: 4px;
+}
+
+.detailed__contant>*:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.detailed__content__title {
+	font-size: 48px;
+	font-weight: 700;
+    color: #007cc3;
+    text-align: center;
+}
+
+.detailed__content__text {
+	font-size: 24px;
+    color: #007cc3;
+    font-weight: 600;
+    text-align: left;
+	/* font-weight: 700; */
+}
+
+.open__car__about {
+	padding: 10px;
+	text-align: center;
+	background-color: #fff;
+	color: black;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	transition: all 0.5s;
+}
+
+.open__car__about:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* Стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+	color: #fff;
+	font-size: 1.5vw;
+	font-weight: 700;
+	width: 3vw;
+	height: 3vw;
+	border-radius: 50%;
+	background-color: #007cc35d;
+	transition: all 0.3s;
+}
+
+
+
+.image-slider .swiper-button-prev:hover::after,
+.image-slider .swiper-button-next:hover::after {
+	background-color: #007cc3;
+	border-radius: 50%;
+}
