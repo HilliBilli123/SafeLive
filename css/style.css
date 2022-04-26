@@ -12,7 +12,7 @@
 }
 
 .menu__link {
-    color: #000;
+    color: #007cc3;
     font-weight: 600;
 }
 
@@ -157,4 +157,95 @@
 .image-slider .swiper-button-next:hover::after {
 	background-color: #007cc3;
 	border-radius: 50%;
+}
+
+/* ============ Слайдер ================================================================================= */
+.services {
+	height: 80vh;
+}
+
+.services__contein {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.services__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.services__block__img {
+
+}
+
+.services__title {
+	font-size: 46px;
+	text-align: center;
+	font-weight: 700;
+	color: #007cc3;
+	margin-top: 80px;
+}
+
+.services__block {
+	padding: 10px 0;
+	background-color: #007cc3;
+	border-radius: 4px;
+	color: #fff;
+	width: 550px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.services__content > *:not(:last-child) {
+	margin-right: 20px;
+}
+ 
+.services__block__img {
+	height: 250px;
+	width: 80%;
+}
+
+.services__block__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.service__block__title {
+	font-size: 24px;
+	font-weight: 600;	
+}
+
+.service__block__list > *:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.service__block__item {
+	list-style-type: disc;
+}
+
+.service__block__list {
+	padding: 0 50px;
+}
+
+.service__block__button {
+	background-color: #fff;
+	color: #007cc3;
+	padding: 10px 20px;
+	border-radius: 4px;
+	border: 2px #025d92 solid;
+	transition: all 0.3s;
+	font-weight: 600;
+}
+
+.service__block__button:hover {
+	background-color: #007cc3;
+	color: #fff;
 }
