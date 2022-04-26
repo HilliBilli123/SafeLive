@@ -160,9 +160,9 @@
 }
 
 /* ============ Слайдер ================================================================================= */
-.services {
-	height: 80vh;
-}
+/* .services {
+	height: 100vh;
+} */
 
 .services__contein {
 	height: 80vh;
@@ -178,9 +178,6 @@
 
 }
 
-.services__block__img {
-
-}
 
 .services__title {
 	font-size: 46px;
